@@ -63,7 +63,7 @@
             }
 
             #map {
-                height: 350px;
+                height: 450px;
             }
         </style>
         <script
@@ -80,7 +80,7 @@
 
     </head>
     <body>
-    <div id="map"></div>
+
     <script>
         let map;
         let marker;
@@ -117,7 +117,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Climbing spot sites
                 </div>
 
                 <div class="links">
@@ -129,7 +129,9 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <div id="map"></div>
             </div>
         </div>
+
     </body>
 </html>
